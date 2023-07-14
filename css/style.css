@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  #current-weather-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #current-weather-info > div {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  #forecast-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #forecast-info > div {
+    flex-basis: calc(20% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  #search-history ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #search-history ul li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
